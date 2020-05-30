@@ -1,0 +1,166 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+a {
+  color: black;
+}
+
+h2 {
+  top: 20%;
+  color:black;
+}
+.flying-page {
+  background-image: url("../images/clouds.jpg");
+  /* background-repeat: no-repeat; */
+  height: 100%;
+  background-size: cover;
+  background-position:center;
+  background-attachment:fixed;
+}
+
+.fly-btn, .drive-btn, .fly-submit, .drive-submit {
+  transition-duration: 0.4s;
+}
+
+.fly-btn:hover, .drive-btn:hover, .fly-submit:hover, .drive-submit:hover {
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.header
+{
+    height: 100%;
+    background-image:url("../images/pexels-photo-2007401.jpeg");
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    padding-top:100px;
+    padding-left:500px;
+
+
+}
+.header img
+{
+    width:170px;
+    float: center;
+}
+
+.fly-btn
+{
+    width:200px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid rgb(10, 7, 7);
+    border-radius: 50px;
+    background: transparent;
+    color: rgb(12, 9, 9);
+    float: center;
+}
+
+.drive-btn
+{
+    width:200px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid rgb(14, 11, 11);
+    border-radius: 50px;
+    background: transparent;
+    color: rgb(14, 11, 11);
+    float: center;
+}
+
+.fly-submit{
+  width:100px;
+  padding: 8px 0;
+  outline: none !important;
+  border: 2px solid rgb(10, 7, 7);
+  border-radius: 50px;
+  background: transparent;
+  color: rgb(12, 9, 9);
+  float: center;
+}
+
+.message {
+  top: 45%;
+  margin: 0;
+  position: absolute;
+  left: 42%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 55%;
+    left: 42%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.center1 {
+  margin: 0;
+  position: absolute;
+  top: 65%;
+  left: 42%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.section {
+    position: relative;
+    height: 100vh;
+}
+
+.section .section-center {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.drive{
+      height: 100%;
+      background-image: url("../images/empty-country-road-in-fog-24821.jpg");
+      background-size: cover;
+      background-position:center;
+      background-attachment:fixed;
+      padding-top:10px;
+      /* padding-left:500px; */
+
+  }
+.drive-submit{
+   width:100px;
+   padding: 8px 0;
+   outline: none !important;
+   border: 2px solid rgb(14, 11, 11);
+   border-radius: 50px;
+   background: transparent;
+   color: rgb(14, 11, 11);
+   float: center;
+ }
+
+.card-page {
+  background-image: url("../images/toyplane.jpg");
+  /* background-repeat: no-repeat; */
+  height: 100%;
+  background-size: cover;
+  background-position:center;
+  background-attachment:fixed;
+ }
+
+ .full {
+   color: white;
+ }
